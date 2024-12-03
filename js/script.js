@@ -3,7 +3,7 @@
 const cargarRecetas = async () => {
     try {
         //await lo usaremos para decir que primero cumpla el cargado de los datos de la api y despues pase a lo siguiente
-        const respuesta = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=c&language=es');
+        const respuesta = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=b&language=es');
         console.log("respuesta",respuesta);
         // Verificamos si la solicitud fue exitosa obteniendo el codigo 200
         if (respuesta.status === 200) {
