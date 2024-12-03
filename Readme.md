@@ -13,7 +13,7 @@ El proyecto fue desarrollado con la API "TheMealDB", una API que nos permite rea
 https://www.themealdb.com/api.php
 ### Edpoint utilizado en el proyecto
 https://www.themealdb.com/api/json/v1/1/search.php?f=c
-Devuelve las recetas cuyo nombre comienza con una letra específica, en este caso "c".
+Devuelve las recetas cuyo nombre comienza con una letra específica, en este caso "b".
 
 ## Tecnologías Utilizadas
 Las tecnologias para el desarrollo del proyecto son:
